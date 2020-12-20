@@ -1,0 +1,42 @@
+img{
+    width: 300px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+li{
+    display: inline;
+    margin: 50px;
+    font-size:25px;
+}
+ul{
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.products p{
+    text-align: center;
+}
+
+.products div{
+    margin-bottom: 10px;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/background.jpg");;
+}
+.teams p{
+    text-align: center;
+    background-color: aquamarine;
+}
